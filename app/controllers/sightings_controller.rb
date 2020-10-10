@@ -5,7 +5,7 @@ class SightingsController < ApplicationController
         # render json: @sighting
 
         # mixiin data from collaborating objects
-        render json: {id: @sighting.id, bird: @sigting.bird, location: @sighting.location}
+        render json: {id: @sighting.id, bird: @sighting.bird, location: @sighting.location}
     end
 
 
