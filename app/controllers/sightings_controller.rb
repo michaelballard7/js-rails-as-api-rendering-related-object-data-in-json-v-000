@@ -4,7 +4,7 @@ class SightingsController < ApplicationController
         @sighting = Sighting.find_by(id: params[:id])
         # render json: @sighting
 
-        # mixiin data from collaborating object
+        # mixiin data from collaborating objects
     end
 
 
